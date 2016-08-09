@@ -1,0 +1,67 @@
+/* 
+    Document   : champions
+    Created on : 13.10.2012, 18:54:55
+    Author     : Kolosovskiy Anton Mihailovich
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.preface{font-size:12pt; color:black; text-align: justify;}
+
+.description-link{font-size:12pt; color:black; text-align: justify;}
+.description-link h2{color:white; margin:25px 0px 5px 0px; font-size:14pt; font-weight: normal;}
+
+.biography{font-size:12pt; text-align: justify;}
+.biography img{border: 1px solid white; float:left; margin: 0px 10px 10px 0px;}
+.biography blockquote{color:black; margin-bottom: 0px; font-style: italic;}
+.biography .signature{text-align: right; margin-top: 0px; font-style: italic;}
+.biography .introduction{margin: 20px 0px 10px 0px;}
+.biography .links_ div{margin-bottom: 5px;}
+
+.narration{font-size:12pt; text-align: justify;}
+.narration blockquote{font-style: italic;}
+
+H1{color: white; font-size: 20pt; padding-right: 10px; font-weight: normal;}
+
+.chess-games .game .board{float: left; margin-right: 15px;}
+/* .chess-games .game .board table td img{border:none; vertical-align: top;} */
+/* .chess-games .game .board table .top_board td img{vertical-align: bottom;} */
+.chess-games .game .board .operations{text-align: center;}
+.chess-games .game .board .operations img{cursor: pointer; border: none;}
+
+.example-game{text-align: justify;}
+.example-game h2{font-size:12pt; font-weight: bold; color: white; text-align: center; clear: left;}
+.example-game h2 .type-game{font-weight: normal; font-style: italic;}
+.example-game h2 .place-game{font-weight: normal; font-size:10pt;}
+.example-game .current_{font-weight: bold;}
+
+.navigation{font-size:12pt; text-align: right;}
+
+.narration img{border: 1px solid white; float:left; margin: 5px 10px 10px 0px;}
+.narration .no-border{border: none; float:left; margin: 0px 10px 10px 0px;}
+.narration .begin-mail{font-style: italic;}
+.narration .end-mail{font-style: italic; text-align: right;}
+.narration .postscrip-mail{font-style: italic;}
+
+.links-to-games table{
+   border: none;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 20px;
+}
+.links-to-games table th{
+   border-top: none;
+   border-left: none;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   margin: 0px; padding: 0px 5px 0px 5px;
+   background-color: silver; text-align: center;
+}
+.links-to-games table td{
+   border-top: none;
+   border-left: none;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   margin: 0px; padding: 0px 5px 0px 5px;
+   white-space:nowrap;
+}
